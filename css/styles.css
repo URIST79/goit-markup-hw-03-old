@@ -1,0 +1,191 @@
+:root{--background-color: #FFFFFF;
+  --section-title-color: #2e2f42;
+  --button-portfolio-color: #4d5ae5;
+  --button-background-color: #F4F4FD;
+  --portfolio-foto-color: #2e2f42;
+  --portfolio-sectoin-color: #434455;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455; 
+  background-color: #FFFFFF;  
+  letter-spacing: 0.02em;
+  }
+
+.link {text-decoration: none;}
+.list {list-style: none;}
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.studio {
+  color: #2E2F42;
+}
+.studio-black{
+color: #F4F4FD; 
+}
+.nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2E2F42;
+  letter-spacing: 0.02em
+}
+.nav a:active {
+  color: #404BBF;
+}
+.nav a:hover {
+  color: #404BBF;
+}
+.nav a:focus {
+  color: #404BBF;
+}
+.adress {
+  font-style: normal;
+}
+.adress a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+.adress:hover {
+  color: #404bbf  
+}
+.adress:focus {
+  color: #404bbf  
+}
+
+.mail-number{
+font-style: normal;  
+}
+.mail-number:active {
+color: #404BBF;
+}
+.mail-number:hover {
+  color: #404BBF;
+}
+.mail-number:focus {
+color: #404BBF;
+}  
+.section-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #FFFFFF;
+  background: #2e2f42;
+}
+.section-title{
+  color: var(--section-title-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em
+}
+
+.header{
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button-hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4D5AE5;
+}
+
+.button-hero:hover {
+  background: #404BBF;  
+}
+.button-hero:focus {
+  background: #404BBF;  
+}
+.about{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+  letter-spacing: 0.02em;  
+}
+
+.about-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+   color: #434455; 
+}
+
+.our-team{
+  background-color: #F4F4FD;   
+}
+.team-foto {
+  background-color: #FFFFFF
+}
+.name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+  letter-spacing: 0.02em; 
+  background-color: #FFFFFF;
+}
+
+.work{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;  
+}
+.footer{
+background-color: #2E2F42;
+}
+.button-portfolio {
+  font-family: "Roboto", sans-serif; 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-portfolio-color); 
+  background-color: var(--button-background-color); 
+  cursor: pointer;
+}
+.button-portfolio:hover{
+  color:#FFFFFF; 
+  background-color: #404BBF;
+  cursor: pointer;  
+}
+.button-portfolio:focus{
+  color: #FFFFFF;
+  background-color: #404BBF;  
+}
+.portfolio-foto {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--portfolio-foto-color);
+}
+.portfolio-sectoin{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--portfolio-sectoin-color);
+}
+.footer-p{
+  line-height: 1.5;  
+color: #F4F4FD;  
+}
