@@ -8,6 +8,7 @@
   --cornflower: #e7e9fc;
   --white: #fff;
   --color-buttom: #e7e9fc;
+  --button-portfolio-border: #e7e9fc;
 }
 
 body {
@@ -61,9 +62,11 @@ img {
 /* Header */
 .header {
   padding: 24px 0;
-  border-bottom: 1px solid, #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
   background: white, #fff;
   width: 1158px;
+  margin: 0 auto;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -182,7 +185,7 @@ img {
   background: #404bbf;
 }
 .section-about {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .about {
   font-weight: 500;
@@ -280,6 +283,8 @@ img {
   background-color: var(--button-background-color);
   cursor: pointer;
   padding: 12px 24px;
+  border: 1px solid var(--button-portfolio-border);
+  border-radius: 4px;
 }
 .button-portfolio-nav {
   display: flex;
