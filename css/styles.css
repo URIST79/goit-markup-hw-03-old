@@ -203,6 +203,10 @@ img {
 }
 .section-about {
   padding: 120px 0;
+  display: flex;
+}
+.section-list{
+ gap: 24px; 
 }
 .about {
   font-weight: 500;
@@ -228,6 +232,10 @@ img {
 }
 .section-our-work {
   padding-bottom: 120px;
+}
+.section-we{
+  display: flex;
+  gap: 24px;
 }
 .our-work {
   display: flex;
@@ -291,6 +299,9 @@ img {
 .main-section {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+.portfolio-header{
+ padding: 24px 0; 
 }
 .button-portfolio {
   font-family: 'Roboto', sans-serif;
@@ -358,4 +369,5 @@ img {
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
   background: var(--white, #fff);
+  padding: 32px 16px;
 }
