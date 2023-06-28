@@ -207,6 +207,7 @@ img {
 }
 .section-list{
  gap: 24px; 
+ display: flex;
 }
 .about {
   font-weight: 500;
