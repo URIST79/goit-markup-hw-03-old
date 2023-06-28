@@ -34,6 +34,16 @@ ol {
   margin: 0;
   padding: 0;
 }
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
 img {
   display: block;
 }
@@ -76,6 +86,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -201,16 +212,7 @@ img {
   padding: 120px 0;
   width: calc((100% - 72px) / 4);
 }
-.visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-}
+
 .about-text {
   font-weight: 400;
   font-size: 16px;
