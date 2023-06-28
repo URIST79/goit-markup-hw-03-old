@@ -87,7 +87,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0px;
+  padding: 24px 0;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -121,7 +121,9 @@ img {
 .nav a:hover {
   color: #404bbf;
 }
-
+.nav-a{
+  padding: 24px 0;
+}
 .adress {
   font-style: normal;
 }
